@@ -7,7 +7,7 @@ interface Props {
 
 const Shop = ({children}:Props) => {
     return (
-        <div className="text-black flex flex-wrap h-full items-center gap-x-5">
+        <div className="text-black flex flex-wrap justify-center h-full w-full mt-[20px] gap-x-[100px]">
             {children}
         </div>
     )
